@@ -277,3 +277,19 @@ img { max-width: 100%; display: block; }
   font-size: 0.78rem;
   letter-spacing: 0.04em;
 }
+.social-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/social-icons.png");
+  background-repeat: no-repeat;
+  background-size: 139px 32px;
+  border-radius: 50%;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.social-icon:hover { opacity: 1; transform: translateY(-2px); }
+.social-icon.icon-instagram { background-position: 0 0; }
+.social-icon.icon-facebook { background-position: -35px 0; }
+.social-icon.icon-youtube { background-position: -70px 0; }
+.social-icon.icon-tiktok { background-position: -105px 0; }
